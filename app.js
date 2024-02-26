@@ -28,7 +28,7 @@ class Particle{
         this.force = 0;
         this.angle = 0;
         // this.size = Math.floor(Math.random() * 4);
-        this.size = 2;
+        this.size = 1.5;
         this.draw();
     }
 

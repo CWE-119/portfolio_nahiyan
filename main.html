@@ -1,122 +1,136 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+
+  <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Bokor&family=Cutive+Mono&family=DotGothic16&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bokor&family=Cutive+Mono&family=DotGothic16&display=swap"
+      rel="stylesheet">
+    <link href="https://cdn.lineicons.com/4.0/lineicons.css" rel="stylesheet" />
+
     <link rel="stylesheet" href="style.css">
     <title>Document</title>
-</head>
+  </head>
 
-<body>
-  <canvas id="canvas"></canvas>
-  <div class="circle"></div>
+  <body>
+    <canvas id="canvas"></canvas>
+    <div class="circle"></div>
     <header>
-        <div class="container-logo">
-            <ul class="nav-ul">
-              <li class="nav-li">
-                <a href="#" class="nav-a">
-                  <span class="nav-a-letters">
-                    <span class="nav-a-letter"> S</span>
-                    <span class="nav-a-letter"> .</span>
-                    <span class="nav-a-letter"> A</span>
-                    <!-- <span class="nav-a-letter"> S</span>
+      <div class="container-logo">
+        <ul class="nav-ul">
+          <li class="nav-li">
+            <a href="#" class="nav-a">
+              <span class="nav-a-letters">
+                <span class="nav-a-letter"> S</span>
+                <span class="nav-a-letter"> .</span>
+                <span class="nav-a-letter"> A</span>
+                <!-- <span class="nav-a-letter"> S</span>
                     <span class="nav-a-letter"> T</span>
                     <span class="nav-a-letter"> _</span>
                     <span class="nav-a-letter"> _</span>
                     <span class="nav-a-letter"> K</span> -->
-                  </span>
-                  <span class="nav-a-stripe nav-a-stripe--yellow"> </span>
-                  <span class="nav-a-stripe nav-a-stripe--turquoise"> </span>
-                  <span class="nav-a-stripe nav-a-stripe--purple"> </span>
-                  <span class="nav-a-letters-top">
-                    <span class="nav-a-letter"> S</span>
-                    <span class="nav-a-letter"> .</span>
-                    <span class="nav-a-letter"> A</span>
-                    <!-- <span class="nav-a-letter"> S</span>
+              </span>
+              <span class="nav-a-stripe nav-a-stripe--yellow"> </span>
+              <span class="nav-a-stripe nav-a-stripe--turquoise"> </span>
+              <span class="nav-a-stripe nav-a-stripe--purple"> </span>
+              <span class="nav-a-letters-top">
+                <span class="nav-a-letter"> S</span>
+                <span class="nav-a-letter"> .</span>
+                <span class="nav-a-letter"> A</span>
+                <!-- <span class="nav-a-letter"> S</span>
                     <span class="nav-a-letter"> T</span>
                     <span class="nav-a-letter"> _</span>
                     <span class="nav-a-letter"> _</span>
                     <span class="nav-a-letter"> K</span> -->
-                  </span>
-                </a>
-              </li>
-            </ul>
-          </div>
-        <nav>
-            <ul>
-                <!-- <li><a href="#">Service</a></li>
+              </span>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <nav>
+        <ul>
+          <!-- <li><a href="#">Service</a></li>
                 <li><a href="#">Blog</a></li> -->
 
-                <li><a href="#"><div class="container-btn-git">
-                  <div class="wrapper">
-                    <button class="btn">
-                      <div class="btn__bg">
-                        <span class="btn__bg__layer btn__bg__layer-first"></span>
-                        <span class="btn__bg__layer btn__bg__layer-second"></span>
-                        <span class="btn__bg__layer btn__bg__layer-third"></span>
-                      </div>
-                  
-                      <span class="btn__text-out">Home</span>
-                      <span class="btn__text-in">Home</span>
-                    </button></a></li>
-                
-                <li><a href="#"><div class="container-btn-git">
-                    <div class="wrapper">
-                        <button class="btn">
-                        <div class="btn__bg">
-                            <span class="btn__bg__layer btn__bg__layer-first"></span>
-                            <span class="btn__bg__layer btn__bg__layer-second"></span>
-                            <span class="btn__bg__layer btn__bg__layer-third"></span>
-                        </div>
-                    
-                        <span class="btn__text-out">About</span>
-                        <span class="btn__text-in">About</span>
-                        </button></a></li>
-                
-                <li><a href="#"><div class="container-btn-git">
-                    <div class="wrapper">
-                        <button class="btn">
-                        <div class="btn__bg">
-                            <span class="btn__bg__layer btn__bg__layer-first"></span>
-                            <span class="btn__bg__layer btn__bg__layer-second"></span>
-                            <span class="btn__bg__layer btn__bg__layer-third"></span>
-                        </div>
-                    
-                        <span class="btn__text-out">Service</span>
-                        <span class="btn__text-in">Service</span>
-                        </button></a></li>
-                    
-                        <li><a href="#"><div class="container-btn-git">
-                            <div class="wrapper">
-                                <button class="btn">
-                                <div class="btn__bg">
-                                    <span class="btn__bg__layer btn__bg__layer-first"></span>
-                                    <span class="btn__bg__layer btn__bg__layer-second"></span>
-                                    <span class="btn__bg__layer btn__bg__layer-third"></span>
-                                </div>
-                            
-                                <span class="btn__text-out">Blog</span>
-                                <span class="btn__text-in">Blog</span>
-                                </button></a></li>
+          <li><a href="#">
+              <div class="container-btn-git">
+                <div class="wrapper">
+                  <button class="btn">
+                    <div class="btn__bg">
+                      <span class="btn__bg__layer btn__bg__layer-first"></span>
+                      <span class="btn__bg__layer btn__bg__layer-second"></span>
+                      <span class="btn__bg__layer btn__bg__layer-third"></span>
+                    </div>
 
-                        <li><a href="#"><div class="container-btn-git">
-                            <div class="wrapper">
-                                <button class="btn">
-                                <div class="btn__bg">
-                                    <span class="btn__bg__layer btn__bg__layer-first"></span>
-                                    <span class="btn__bg__layer btn__bg__layer-second"></span>
-                                    <span class="btn__bg__layer btn__bg__layer-third"></span>
-                                </div>
-                            
-                                <span class="btn__text-out">Get in touch </span>
-                                <span class="btn__text-in">Get in touch </span>
-                                </button></a></li>
-                    
-            </ul>
-        </nav>
+                    <span class="btn__text-out">Home</span>
+                    <span class="btn__text-in">Home</span>
+                  </button>
+            </a></li>
+
+          <li><a href="#">
+              <div class="container-btn-git">
+                <div class="wrapper">
+                  <button class="btn">
+                    <div class="btn__bg">
+                      <span class="btn__bg__layer btn__bg__layer-first"></span>
+                      <span class="btn__bg__layer btn__bg__layer-second"></span>
+                      <span class="btn__bg__layer btn__bg__layer-third"></span>
+                    </div>
+
+                    <span class="btn__text-out">About</span>
+                    <span class="btn__text-in">About</span>
+                  </button>
+            </a></li>
+
+          <li><a href="#">
+              <div class="container-btn-git">
+                <div class="wrapper">
+                  <button class="btn">
+                    <div class="btn__bg">
+                      <span class="btn__bg__layer btn__bg__layer-first"></span>
+                      <span class="btn__bg__layer btn__bg__layer-second"></span>
+                      <span class="btn__bg__layer btn__bg__layer-third"></span>
+                    </div>
+
+                    <span class="btn__text-out">Service</span>
+                    <span class="btn__text-in">Service</span>
+                  </button>
+            </a></li>
+
+          <li><a href="#">
+              <div class="container-btn-git">
+                <div class="wrapper">
+                  <button class="btn">
+                    <div class="btn__bg">
+                      <span class="btn__bg__layer btn__bg__layer-first"></span>
+                      <span class="btn__bg__layer btn__bg__layer-second"></span>
+                      <span class="btn__bg__layer btn__bg__layer-third"></span>
+                    </div>
+
+                    <span class="btn__text-out">Blog</span>
+                    <span class="btn__text-in">Blog</span>
+                  </button>
+            </a></li>
+
+          <li><a href="#">
+              <div class="container-btn-git">
+                <div class="wrapper">
+                  <button class="btn">
+                    <div class="btn__bg">
+                      <span class="btn__bg__layer btn__bg__layer-first"></span>
+                      <span class="btn__bg__layer btn__bg__layer-second"></span>
+                      <span class="btn__bg__layer btn__bg__layer-third"></span>
+                    </div>
+
+                    <span class="btn__text-out">Get in touch </span>
+                    <span class="btn__text-in">Get in touch </span>
+                  </button>
+            </a></li>
+
+        </ul>
+      </nav>
     </header>
     <div class="hero">
       <div class="sidebar">
@@ -124,66 +138,85 @@
           <div class="hero_marque_mid">
             <div class="hero_marque">
               <ul class="hero_marque_inner">
-                <li> <h1>I am just a curious guy </h1></li>
-                <li> <h1>I am just a curious guy </h1></li>
-                <li> <h1>I am just a curious guy </h1></li>
-                <li> <h1>I am just a curious guy </h1></li>
-                <li> <h1>I am just a curious guy </h1></li>
-                <li> <h1>I am just a curious guy </h1></li>
-                <li> <h1>I am just a curious guy </h1></li>
+                <li>
+                  <h1>I am just a curious guy </h1>
+                </li>
+                <li>
+                  <h1>I am just a curious guy </h1>
+                </li>
+                <li>
+                  <h1>I am just a curious guy </h1>
+                </li>
+                <li>
+                  <h1>I am just a curious guy </h1>
+                </li>
+                <li>
+                  <h1>I am just a curious guy </h1>
+                </li>
+                <li>
+                  <h1>I am just a curious guy </h1>
+                </li>
+                <li>
+                  <h1>I am just a curious guy </h1>
+                </li>
               </ul>
             </div>
           </div>
 
-        <div class="links">
-          <span class="link"> <a href=""> F </a></span>
-          <span class="link"> <a href=""> F </a></span>
-          <span class="link"> <a href=""> F </a></span>
-        </div>
+          <div class="links">
+            <span class="link"> <a href="https://twitter.com/CWE_119" target="_blank"> <i
+                  class="lni lni-twitter-original"></i> </a></span>
+            <span class="link"> <a href="https://github.com/CWE-119" target="_blank"> <i
+                  class="lni lni-github-original"></i> </a></span>
+            <span class="link"> <a href="https://www.linkedin.com/in/samiul-nahiyan-b0a2b9297/" target="_blank"> <i
+                  class="lni lni-linkedin"></i> </a></span>
+          </div>
         </div>
 
       </div>
       <div class="contents">
-                <!-- about section -->
-                <section class="about" id="about">
+        <!-- about section -->
+        <section class="about" id="about">
 
-                  <h1 class="heading">about me</h1>
-      
-                  <div class="content">
-                      <h3 class="name">my name is <span>PEPEX | learner </span> </h3>
-                      <p>
-                          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Neque esse consequatur sapiente! Aperiam
-                          quam, mollitia obcaecati pariatur labore ad perferendis ratione corporis molestias tempore assumenda
-                          adipisci porro. Mollitia, fuga recusandae.
-                      </p>
-                      <p>
-                          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex amet pariatur molestias voluptatum saepe
-                          atque et exercitationem quibusdam omnis quo quam placeat, in minus voluptas assumenda, doloremque
-                          quia blanditiis. Exercitationem.
-                      </p>
-                  </div>
-                  <div class="skills">
-                  </div>
-              </section>
+          <h1 class="heading">about me</h1>
 
-              <!-- Project section -->
-              <section class="projects" id="projects">
-                <div class="container_projects">
-                  <h1 class="text_proj">TEXT EFFECT<span class="span_proj">WOAH</span></h1>
-                  <h1 class="text_proj">GSAP<span class="span_proj">AND CLIPPING</span></h1>
-                  <h1 class="text_proj">CRAZYYY<span class="span_proj">CRAZYYY</span></h1>
-                  <h1 class="text_proj">HOVER ON ME<span class="span_proj"><a class="a_proj" href="https://stacksorted.com/text-effects/minh-pham"
-                        target="_blank_proj">SOURCE</a></span></h1>
-                  <h1 class="text_proj">LIKE THIS?<span class="span_proj"><a class="a_proj" href="https://twitter.com/juxtopposed" target="_blank">LET'S CONNECT</a></span>
-                  </h1>
-                </div>
-              </section>
+          <div class="content">
+            <h3 class="name">my name is <span>PEPEX | learner </span> </h3>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Neque esse consequatur sapiente! Aperiam
+              quam, mollitia obcaecati pariatur labore ad perferendis ratione corporis molestias tempore assumenda
+              adipisci porro. Mollitia, fuga recusandae.
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex amet pariatur molestias voluptatum saepe
+              atque et exercitationem quibusdam omnis quo quam placeat, in minus voluptas assumenda, doloremque
+              quia blanditiis. Exercitationem.
+            </p>
+          </div>
+          <div class="skills">
+          </div>
+        </section>
+
+        <!-- Project section -->
+        <section class="projects" id="projects">
+          <div class="container_projects">
+            <h1 class="text_proj">TEXT EFFECT<span class="span_proj">WOAH</span></h1>
+            <h1 class="text_proj">GSAP<span class="span_proj">AND CLIPPING</span></h1>
+            <h1 class="text_proj">CRAZYYY<span class="span_proj">CRAZYYY</span></h1>
+            <h1 class="text_proj">HOVER ON ME<span class="span_proj"><a class="a_proj"
+                  href="https://stacksorted.com/text-effects/minh-pham" target="_blank_proj">SOURCE</a></span></h1>
+            <h1 class="text_proj">LIKE THIS?<span class="span_proj"><a class="a_proj"
+                  href="https://twitter.com/juxtopposed" target="_blank">LET'S CONNECT</a></span>
+            </h1>
+          </div>
+        </section>
 
       </div>
     </div>
     <footer>
-        <h3>&copy; All Right Reserved</h3>
+      <h3>&copy; All Right Reserved</h3>
     </footer>
     <script src="./app.js"></script>
-</body>
+  </body>
+
 </html>

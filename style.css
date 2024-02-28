@@ -2,7 +2,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap");
 
 * {
-	margin-left: 0;
 	padding: 0;
 	box-sizing: border-box;
 	min-width: 0;
@@ -16,11 +15,10 @@
 	--color-main: #a474ff;
 	--color-main-second: #17f1d1;
 	--color-main-third: #272727;
-
 }
 
 html::-webkit-scrollbar {
-  display: none;
+	display: none;
 }
 
 body {
@@ -55,7 +53,7 @@ canvas {
 	position: absolute;
 	top: 0;
 	left: 0;
-	width: 100%;
+	width: 100vw;
 	height: 100%;
 	background-color: #e1dfe1;
 	overflow: hidden;
@@ -64,13 +62,13 @@ canvas {
 header,
 footer {
 	position: fixed;
-	width: 100%;
+	width: 99.2vw;
 	outline: 2px solid #ccc;
 	border: 1px solid #999;
 }
 
 header {
-	position: fixed;
+	position: a;
 	height: 60px;
 	z-index: 100;
 }
@@ -80,8 +78,9 @@ footer {
 	text-align: center;
 	font-size: 16px;
 	font-weight: 600;
-	overflow: hidden;
+	/* overflow: hidden; */
 	/* padding: 8px 0; */
+	margin-bottom: 2px;
 }
 
 header .logo {
@@ -346,7 +345,7 @@ a {
 }
 
 .hero .sidebar {
-	height: calc(100vh - 140px);
+	height: calc(100vh - 139px);
 	width: 100px;
 	border: 1px solid #999;
 }
@@ -422,13 +421,13 @@ a {
 	color: #272727;
 }
 
-.lni-twitter-original:hover{
+.lni-twitter-original:hover {
 	color: rgb(232, 90, 79);
 }
-.lni-github-original:hover{
+.lni-github-original:hover {
 	color: rgb(232, 90, 79);
 }
-.lni-linkedin:hover{
+.lni-linkedin:hover {
 	color: rgb(232, 90, 79);
 }
 
@@ -493,7 +492,7 @@ a {
 	position: relative;
 }
 
-.text_proj:hover{
+.text_proj:hover {
 	border-bottom: 1px solid #2f2b28;
 }
 
@@ -513,7 +512,7 @@ a {
 	justify-content: center;
 }
 
-.text_proj{
+.text_proj {
 	color: #272727b2;
 }
 

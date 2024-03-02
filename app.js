@@ -1,4 +1,4 @@
-const canvas = document.querySelector('canvas');
+const canvas = document.getElementById('canva');
 const ctx = canvas.getContext('2d');
 
 const circleElement = document.querySelector('.circle');
@@ -155,3 +155,5 @@ const tick = () => {
     window.requestAnimationFrame(tick);
 }
 tick();
+
+// skills chart

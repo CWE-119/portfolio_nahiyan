@@ -17,6 +17,7 @@
 	--color-main-second: #17f1d1;
 	--color-main-third: #272727;
 	--orange-color: rgb(232, 90, 79);
+	--news-color: #f8f5f1;
 }
 
 html::-webkit-scrollbar {
@@ -103,7 +104,7 @@ body {
 	left: 0;
 	width: 100vw;
 	height: 100%;
-	background-color: #e1dfe1;
+	background-color: var(--news-color);
 	overflow: hidden;
 }
 
@@ -592,9 +593,9 @@ section {
 	display: inline-block;
 	color: var(--color-main-third);
 	font-family: "Poppins";
-	font-size: 50px;
-	color: #999;
-	text-shadow: 0.07em 0.07em 0 #434364;
+	font-size: 25px;
+	color: var(--color-main-third);
+	text-shadow: 0.07em 0.07em 0 #999;
 }
 
 
@@ -626,7 +627,7 @@ section {
 .card {
 	width: 190px;
 	height: 300px;
-	background: var(--back-ground-color);
+	background: var(--news-color);
 	border-radius: 5px;
 	border: 1px solid var(--color-main-third);
 	transition: all 0.2s;

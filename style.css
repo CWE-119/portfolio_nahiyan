@@ -16,6 +16,7 @@
 	--color-main: #a474ff;
 	--color-main-second: #17f1d1;
 	--color-main-third: #272727;
+	--orange-color: rgb(232, 90, 79);
 }
 
 html::-webkit-scrollbar {
@@ -141,11 +142,11 @@ header {
 	justify-content: space-around;
 }
 
-.nav{
+.nav {
 	width: calc(99.2vw / 1);
 }
 
-.nav_ul{
+.nav_ul {
 	display: flex;
 	align-items: center;
 	justify-content: space-evenly;
@@ -275,8 +276,7 @@ a {
 	opacity: 0 !important;
 }
 
-
-.p_btn_txt{
+.p_btn_txt {
 	padding-bottom: 0px;
 }
 /* button get in touch */
@@ -402,7 +402,6 @@ a {
 	align-items: center;
 	justify-content: center;
 }
-
 
 /* body */
 .hero {
@@ -589,14 +588,23 @@ section {
 	font-size: 20px;
 	color: #272727;
 }
-.name > span {
-	font-size: 25px;
-	transition: ease-in-out 0.1s;
+#name {
+	display: inline-block;
+	color: var(--color-main-third);
+	font-family: "Poppins";
+	font-size: 50px;
+	color: #999;
+	text-shadow: 0.07em 0.07em 0 #434364;
 }
 
-.name > span:hover {
-	font-size: 27px;
-	letter-spacing: 1px;
+
+@keyframes shad-anim {
+	0% {
+		background-position: 0 0;
+	}
+	0% {
+		background-position: 50% -50%;
+	}
 }
 
 /* cards */
@@ -608,7 +616,7 @@ section {
 }
 
 .cards {
-	padding-top: 25px;
+	padding-top: 5px;
 	display: flex;
 	justify-content: space-evenly;
 	flex-direction: row;
@@ -621,10 +629,10 @@ section {
 	background: var(--back-ground-color);
 	border-radius: 5px;
 	border: 1px solid var(--color-main-third);
-	transition: all .2s;
+	transition: all 0.2s;
 	box-shadow: 10px 10px 0px -2.5px var(--color-main-third);
 }
-.card:hover{
+.card:hover {
 	box-shadow: -10px 10px 0px 2.5px var(--color-main-third);
 }
 
@@ -634,9 +642,8 @@ section {
 	display: flex;
 	justify-content: center;
 	font-family: "Poppins";
-
 }
-.e_title{
+.e_title {
 	margin: 0;
 	padding-top: 10px;
 	padding-bottom: 5px;
@@ -760,6 +767,7 @@ section {
 	align-items: flex-start;
 	justify-content: center;
 	position: relative;
+	color: #272727;
 }
 
 .text_proj:hover {
@@ -783,11 +791,10 @@ section {
 }
 
 .text_proj:hover > span {
-	color: #272727;
 	clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
 }
 
 .a_proj {
 	text-decoration: none;
-	color: inherit;
+	color: #272727;
 }
